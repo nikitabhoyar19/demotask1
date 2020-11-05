@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Task</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="container mt-30">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img src="Assets/logo-coursify-back-white.png" alt="" />
+        </a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-chevron-double-down"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Video Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Course</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exam</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn signup" type="submit">sign up</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container headd mt-30">
+      <div class="row">
+        <!-- info -->
+        <div class="col-md-6 info text-center"
+        style="">
+          <h1 class="title">Clarify Your <strong style="color: purple;">Doubts</strong> <br />in your languages</h1>
+
+          <button class="btn btn-danger">Ask Your Doubt Now</button>
+        </div>
+        <div class="col-md-6 width">
+          <img
+            src="Assets/video-placeholder-img.png"
+            alt=""
+            style="width: 100%;
+            border-radius: 20px;"
+          />
+        </div>
+      </div>
+    </div>
+<!-- card container -->
+    <div class="container cardcont mt-30">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="imgcard">
+              <img src="Assets/doubtcard.svg" alt=""/>
+            </div>
+            <div class="card-content"
+            style="">
+            <h1>40,000+</h1>
+              <p>Doubts Cleared</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <div class="imgcard">
+              <img src="Assets/stateboard.svg" alt=""/>
+            </div>
+            <div class="card-content"
+            style="">
+            <h1>40,000+</h1>
+              <p>Doubts Cleared</p>
+            </div>
+          </div>
+        </div>       
+        
+        <div class="col-md-3">
+          <div class="card">
+            <div class="imgcard">
+              <img src="Assets/videolecture.svg" alt=""/>
+            </div>
+            <div class="card-content"
+            style="">
+            <h1>40,000+</h1>
+              <p>Doubts Cleared</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <div class="imgcard">
+              <img src="Assets/stateboard.svg" alt=""/>
+            </div>
+            <div class="card-content"
+            style="">
+            <h1>40,000+</h1>
+              <p>Doubts Cleared</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+<!-- info -->
+    <div class="container mt-30">
+      <div class="row home mt-30">
+        <div class="col-md-6"
+        style="">
+          <h1 class="title"> Solve your doubts faster</h1>
+          <div class="home1 pt-2">
+          <div class="img">
+            <img src="Assets/million.svg" alt="">
+          </div>
+          <div class="pt-4">
+            <h2>Accesible everywhere</h2>
+            <p>Access to qualify education anytime</p>
+          </div>
+        </div>
+
+        <div class="home1 pt-2">
+          <div class="img">
+            <img src="Assets/million.svg" alt="">
+          </div>
+          <div class="pt-4">
+            <h2>Accesible everywhere</h2>
+            <p>Access to qualify education anytime</p>
+          </div>
+        </div>
+
+        </div>
+        <div class="col-md-6 width">
+          <img
+            src="Assets/video-placeholder-img.png"
+            alt=""
+            style="width: 100%;
+            border-radius: 20px;"
+          />
+        </div>
+      </div>
+    </div>
+<!-- doubts -->
+    <div class="container doubts mt-30 text-center">
+      <h1 class="title">How it works?</h1>
+      <div class="row mt-30 text-center">
+        <div class="col-md-4 ">
+          <div>
+          <img class="image" src="Assets/mandoubt.svg" alt="">
+          <p>Have a doubt?</p>
+          </div>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+        
+        <div class="col-md-4 pt-2">
+          <div>
+          <img class="image" src="Assets/typeque.svg" alt="">
+          <p>Type your question</br>
+             <!-- OR</br>
+             Upload and image -->
+          </p>
+        </div>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+
+        <div class="col-md-4">
+          <div>
+          <img class="image" src="Assets/solcomp.svg" alt="">
+          <p>Get your Solution?</p>
+          </div>
+        <i class="fa " aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+
+<!-- End Counts -->
+    <div class="counts container mt-30">
+      <h1 class="title">Meet the subject with us!</h1>
+      <div class="row mt-30">
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <img src="Assets/maths.png" alt="">
+            <p>Maths</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <img src="Assets/physics.png" alt="">
+            <p>Physics</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <img src="assets/chemistry.png" alt="">
+            <p>Chemistry</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <img src="Assets/biology.svg" alt=""
+            style="width: 40%">
+            <p>Biology</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+<!-- books -->
+<div class="container books">
+  <h1 class="title">Free Access to 5000<sup>+</sup> books</h1>
+  <p class="bp text-center pt-2">Get access to virtual library of 5000+ text books</br>
+  and reference books of various stateboards and competitive exams</p>
+<div class="row">
+  <div class="col">
+    <div class="table text-center">
+    <table class="m-auto">
+      <tr>
+        <td>
+          <img src="Assets/book1.png" alt="" />
+          <p>Tata McGrew Hill</p>
+        </td>
+        <td>
+          <img src="Assets/book2.png" alt="" />
+          <p>NCERT</p>
+        </td>
+        <td>
+          <img src="Assets/book6.png" alt="" />
+          <p>Amy Morin, LCSW</p>
+        </td>
+        <td>
+          <img src="Assets/book4.png" alt="" />
+          <p>Errorless</p>
+        </td>
+        <td>
+          <img src="Assets/book5.png" alt="" />
+          <p>Tata McGrew Hill</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img src="Assets/book6.png" alt="" />
+          <p>RD Verma</p>
+        </td>
+        <td>
+          <img src="Assets/book7.png" alt="" />
+          <p>Amy Morin, LCSW</p>
+        </td>
+        <td>
+          <img src="Assets/book2.png" alt="" />
+          <p>SL Arora</p>
+        </td>
+        <td>
+          <img src="Assets/book9.png" alt="" />
+          <p>John E. McMurry</p>
+        </td>
+        <td>
+          <img src="Assets/book10.png" alt="" />
+          <p>Maths</p>
+        </td>
+      </tr>
+
+    </table>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- subscribe -->
+  <div class="container mt-30">
+    <div class="row">
+      <div class="col-sm-8">
+        <div>
+          <h4>Subscribe Now for <br />Get Special Features!</h4>
+          <p>Let's subscribe with us and find the fun.</p>
+        </div>
+        <button class="btn btn-danger danger">Get Started</button>
+      </div>
+    </div>
+  </div>
+<!-- end subscribe -->
+
+<!-- export -->
+<div class="export container mt-30">
+  <h1 class="title">Meet our export tutors</h1>
+  <div class="row mt-30">
+    <div class="col-md-6">
+      <img src="Assets/user-1.png" alt=""
+      style="margin-left: 0px;">
+      <div class="count-box"     
+       style="margin-right: 90px;">
+       <h2 class="">Shivani Arora</h2>
+        <p>Loream Ipsum ahds</br>
+           bhclKODKJFN</br>
+           NZJNCLDOOE</br>
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-6 box2">
+      <img src="Assets/user-1.png" alt=""
+      style="margin-left: 0px;">
+      <div class="count-box"     
+       style="margin-right: 90px;">
+       <h2 class="">Shivani Arora</h2>
+        <p>Loream Ipsum ahds</br>
+           bhclKODKJFN</br>
+           NZJNCLDOOE</br>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <!-- 2nd row -->
+  <div class="row mt-30"
+  style="margin-top: 80px;">
+    <div class="col-md-6">
+      <img src="Assets/user-1.png" alt=""
+      style="margin-left: 100px;">
+      <div class="count-box"
+      style="margin-right: 0px;">
+      <h2 class="">Shivani Arora</h2>
+        <p>Loream Ipsum ahds</br>
+           bhclKODKJFN</br>
+           NZJNCLDOOE</br>
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-6 box2">
+      <img src="Assets/user-1.png" alt=""
+      style="margin-left: 100px;">
+      <div class="count-box"
+      style="margin-right: 0px;">
+      <h2>Shivani Arora</h2>
+        <p>Loream Ipsum ahds</br>
+           bhclKODKJFN</br>
+           NZJNCLDOOE</br>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+  
+<!-- live -->
+<div class="container live mt-30 mb-30">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="">
+        Live <strong class="cl">classes</strong>
+      </h1>
+      <h2 class="bh pt-2">Micro Concept Videos</h2>
+      <p class="bp pt-4 pb-3">
+Find Multilingual video explanations important and frequently confused concepts from every subject 
+Find Multilingual video explanations important and frequently confused concepts from every subject </p>
+</p>
+      <button class="btn btn-outline-danger btn-lg danger">Get Started</button>
+    </div>
+    <div class="col-md-6">
+      <img src="Assets/black-video-player-on-pink-600w-1712263804.webp" alt="" 
+      style="width: 100%"/>
+    </div>
+  </div>
+</div>
+
+<!-- download -->
+<div class="container mt-30 mb-30 text-center">
+  <div class="row">
+    <div class="col">
+      <button class="btn btn-danger btn-lg danger">
+        Download the app for free</button>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
